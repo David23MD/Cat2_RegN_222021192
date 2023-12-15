@@ -3,7 +3,7 @@
 # Check if no command line argument is provided
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <positive_integer>"
-    exit 1 
+    exit 1  
 fi
 
 # Check if the command line argument is a positive integer
